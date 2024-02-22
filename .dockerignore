@@ -1,0 +1,9 @@
+#CI
+.gitlab-ci.yml
+#Docker
+.dockerignore
+docker-compose.*
+Dockerfile*
+#k8s for YC
+k8s-manifests
+Dockerfiles-YC
