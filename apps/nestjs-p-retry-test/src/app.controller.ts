@@ -8,13 +8,9 @@ export class AppController {
   ) {
   }
 
-  @Get('get-500')
-  async sendRequestToSomeApiFor500() {
-    return this.appService.sendRequestToSomeApiFor500();
+  @Get()
+  async sendRequest() {
+    return this.appService.sendRequest();
   }
 
-  @Get('get-200')
-  async sendRequestToSomeApiFor200() {
-    return this.appService.sendRequestToSomeApiFor200();
-  }
 }

@@ -15,6 +15,7 @@ nest generate library shared
 # Generate first shared module
 nest generate module some-api-client --project shared
 nest generate module retry-request --project shared
+nest generate service retry-request --project shared
 
 npm i p-retry
 npm i --save @nestjs/axios axios
